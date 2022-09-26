@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercicios</title>
+</head>
+<body>
+	<h1>Exercício de progressão aritmética</h1>
+		<p>Insira o número de onde vai começar a progressão</p>
+		<input type="number" id="numeroInicial">
+
+		<p>Insira qual a razão da progressão aritmética</p>
+		<input type="number" id="razao">
+
+		<p>Insira até qual termo a progressão deve ir</p>
+		<input type="number" id="termo">
+
+		<button onclick="progressao()">Ver</button>
+
+		<div id="resposta"></div>
+		<script type="text/javascript" id="js/logica.js"></script>
+
+	<h2>Fatorial de um número</h2>
+		<p>Dígite um número</p>
+		<input type="number" id="numeroFatorial">
+		<button onclick="fatorial()">Ver</button>
+		<p id="resposta2" ></p>
+
+	<h2>Série de Fibonacci</h2>
+	<p>Digite um termo qualquer da série fibonacci</p>
+	<input type="number" id="termoFibonacci">
+	<button onclick="fibonacci()">Enviar</button>
+	<p id="resposta3"></p>
+
+	<h2>Descobrir se determinado número é primo</h2>
+	<input type="number" id="numeroPrimo">
+	<button onclick="primo()">Descobrir</button>
+	<p id="respostas4"></p>
+
+	<h2>Mostra números primos em determinado intervalo</h2>
+	<input type="number" id="primeiroNumero">
+	<input type="number" id="segundoNumero">
+	<button onclick="numerosPrimos()" >Ver</button>
+	<p id="resposta5"></p>
+
+<script type="text/javascript" src="js/exercicio.js"></script>
+
+</body>
+</html>
